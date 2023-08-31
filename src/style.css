@@ -44,14 +44,17 @@ main {
   width: 80%;
   padding: 30px 10px;
 }
+
 .recent-scores,
 form {
   width: 45%;
   padding: 10px 20px;
 }
+
 form input {
   border: 1px solid #000;
 }
+
 .leaderboard {
   list-style: none;
   border: 2px solid #000;
@@ -65,6 +68,7 @@ form input {
 .leaders {
   width: 100%;
 }
+
 .form-input,
 .leaders {
   padding: 12px;
