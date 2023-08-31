@@ -34,9 +34,15 @@ form {
   padding: 10px 20px;
 }
 
+form input {
+  border: 1px solid #000;
+}
+
 .leaderboard {
   list-style: none;
   border: 2px solid #000;
+  max-height: 50vh;
+  overflow-y: auto;
 }
 
 .leaderboard,
@@ -45,17 +51,13 @@ form {
   width: 100%;
 }
 
-form input {
-  border: 1px solid #000;
-}
-
 .form-input,
 .leaders {
   padding: 12px;
 }
 
 .leaders:nth-child(even) {
-  background-color: hsl(176, 90%, 92%);
+  background-color: hsl(182, 95%, 91%);
 }
 
 .btn-submit {
